@@ -3,6 +3,11 @@ module github.com/johannhipp/amp-proxy
 go 1.26.0
 
 require (
+	github.com/router-for-me/CLIProxyAPI/v6 v6.10.8
+	gopkg.in/yaml.v3 v3.0.1
+)
+
+require (
 	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	github.com/andybalholm/brotli v1.0.6 // indirect
 	github.com/bytedance/sonic v1.11.6 // indirect
@@ -28,8 +33,8 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.2 // indirect
+	github.com/pierrec/xxHash v0.1.5 // indirect
 	github.com/refraction-networking/utls v1.8.2 // indirect
-	github.com/router-for-me/CLIProxyAPI/v6 v6.9.3 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966 // indirect
 	github.com/tidwall/gjson v1.18.0 // indirect
@@ -48,5 +53,4 @@ require (
 	golang.org/x/text v0.31.0 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
